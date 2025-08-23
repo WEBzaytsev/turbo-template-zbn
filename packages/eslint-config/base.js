@@ -47,7 +47,9 @@ export const config = [
     },
     settings: {
       "import/resolver": {
-        typescript: true,
+        typescript: {
+          alwaysTryTypes: true,
+        },
         node: true,
       },
     },
