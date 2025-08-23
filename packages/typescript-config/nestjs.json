@@ -5,16 +5,23 @@
     "allowSyntheticDefaultImports": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "forceConsistentCasingInFileNames": false,
-    "incremental": true,
+
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "strictNullChecks": true,
+    "strictBindCallApply": true,
+    "noImplicitAny": true,
+
+    "lib": ["es2022"],
+    "target": "es2022",
     "module": "Node16",
     "moduleResolution": "node16",
-    "noFallthroughCasesInSwitch": false,
-    "noImplicitAny": false,
+
+    "incremental": true,
     "removeComments": true,
-    "skipLibCheck": true,
     "sourceMap": true,
-    "strictNullChecks": false,
-    "strictBindCallApply": false
+    "resolveJsonModule": true,
+    "allowJs": false,
+    "checkJs": false
   }
 }
